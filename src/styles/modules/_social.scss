@@ -1,0 +1,36 @@
+@import "../mixins/media_queries";
+@import "../base/colors";
+
+.social-container {
+
+  .social-content{
+    a {
+      text-decoration: none;
+      color: #000;
+    }
+
+    h4 {
+      color: $blue-2;
+    }
+
+    svg{
+      fill: $blue-2;
+      margin-right: 8px;
+      position: relative;
+      top: 1px;
+    }
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @include mobile {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+

@@ -1,0 +1,26 @@
+/*
+Padding using an 8pt system
+*/
+@for $multiple from 0 through 20 {
+  $pixels: $multiple * 4;
+
+  .layout-padding-#{$pixels} {
+    padding: #{$pixels}px;
+  }
+
+  .layout-padding-top-#{$pixels} {
+    padding-top: #{$pixels}px;
+  }
+
+  .layout-padding-bottom-#{$pixels} {
+    padding-bottom: #{$pixels}px;
+  }
+
+  .layout-padding-right-#{$pixels} {
+    padding-right: #{$pixels}px;
+  }
+
+  .layout-padding-left-#{$pixels} {
+    padding-left: #{$pixels}px;
+  }
+}

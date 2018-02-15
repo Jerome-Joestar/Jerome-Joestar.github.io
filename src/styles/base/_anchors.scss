@@ -1,0 +1,19 @@
+@import "colors";
+
+a {
+  color: $light;
+  font-weight: 400;
+  text-decoration: underline;
+
+  &:hover {
+    text-decoration: none;
+  }
+
+  &.anchor-secondary{
+    color: $purple-2;
+  }
+
+  &.no-decoration {
+    text-decoration: none;
+  }
+}
