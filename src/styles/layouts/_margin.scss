@@ -1,0 +1,26 @@
+/*
+Margins using an 8pt system
+*/
+@for $multiple from 0 through 20 {
+  $pixels: $multiple * 4;
+
+  .layout-margin-#{$pixels} {
+    margin: #{$pixels}px;
+  }
+
+  .layout-margin-top-#{$pixels} {
+    margin-top: #{$pixels}px;
+  }
+
+  .layout-margin-bottom-#{$pixels} {
+    margin-bottom: #{$pixels}px;
+  }
+
+  .layout-margin-right-#{$pixels} {
+    margin-right: #{$pixels}px;
+  }
+
+  .layout-margin-left-#{$pixels} {
+    margin-left: #{$pixels}px;
+  }
+}

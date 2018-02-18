@@ -1,0 +1,30 @@
+@import "../mixins/media_queries";
+@import "../base/colors";
+
+.skill-container {
+
+  .skill{
+    font-size: 110px;
+    color: $purple-2;
+  }
+
+  .skill-content{
+    width: 110px;
+    height: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  @include desktop {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include tablet {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  @include mobile {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
