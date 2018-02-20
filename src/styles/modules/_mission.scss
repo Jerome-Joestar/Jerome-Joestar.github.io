@@ -8,9 +8,17 @@
     text-decoration: none;
   }
 
+  @include desktop{
+    padding: 0px 55px;
+  }
+
   @include mobile {
     grid-column: 1 / 13;
     text-align: center;
+
+    .mission-button{
+      margin: 12px auto;
+    }
   }
 }
 
