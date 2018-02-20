@@ -1,5 +1,5 @@
 button, .button{
-  background-color: $purple-3;
+  background-color: $purple-2;
   border-radius: 3px;
   border: none;
   color: $light;
@@ -9,14 +9,14 @@ button, .button{
   padding: 10px 20px;
 
   &:hover{
-    background-color: $purple-2;
+    background-color: $purple-3;
   }
 
   &.button-secondary{
-    background-color: $blue-3;
+    background-color: $blue-2;
 
     &:hover{
-      background-color: $blue-2;
+      background-color: $blue-3;
     }
   }
 }

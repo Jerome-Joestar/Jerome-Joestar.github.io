@@ -14,8 +14,10 @@ const MissionStatementSection = () => (
           Providing beautiful solutions to technical issues.
         </p>
         <div>
+          <a href="https://docs.google.com/document/d/128r7KhH7D0bYKmQNuzY9DFC0KMQfTLhZgJVTplE6jnA/export?format=pdf"
+             className="mission-button button button-secondary card-1 card layout-margin-right-12">Download Cover Letter</a>
           <a href="https://docs.google.com/document/d/1AmKS-EKP1tfPgs2YqhxzN5sr98eMyVu6ghXAx6Q8FoI/export?format=pdf"
-             className="mission-button button card-1 card">Download Resume</a>
+             className="mission-button button button-secondary card-1 card">Download Resume</a>
         </div>
       </div>
     </div>
