@@ -1,11 +1,16 @@
-.mission-container{
-  padding: 48px 0 0 205px;;
-  margin: 0 120px;
+.mission-container {
+  grid-column: 2 / 13;
 
-  .mission-button{
+  .mission-button {
     display: inline-block;
-    width: 175px;
+    max-width: 175px;
     text-align: center;
     text-decoration: none;
   }
+
+  @include mobile {
+    grid-column: 1 / 13;
+    text-align: center;
+  }
 }
+
