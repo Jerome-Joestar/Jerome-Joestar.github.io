@@ -5,10 +5,12 @@
   height: 64px;
   padding: 0 168px;
   background-color: $purple-2;
+  text-align: center;
   grid-column: 1 / 13;
 
   .header-text {
     display: inline-block;
+    color: #fff;
     position: relative;
     top: -2px;
   }

@@ -1,4 +1,11 @@
 .mission-container{
-  padding: 48px;
+  padding: 48px 0 0 205px;;
   margin: 0 120px;
+
+  .mission-button{
+    display: inline-block;
+    width: 175px;
+    text-align: center;
+    text-decoration: none;
+  }
 }

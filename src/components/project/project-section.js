@@ -7,7 +7,7 @@ import maintenance from '../../styles/images/maintenance.png';
 
 const ProjectSection = () => (
   <section>
-    <h1 className="section-title">Project</h1>
+    <h1 className="section-title">Projects</h1>
     <div className="container body-container project-container">
       <Project image={milkCalc}
                link={'https://milk-intake-calculator.herokuapp.com'}
