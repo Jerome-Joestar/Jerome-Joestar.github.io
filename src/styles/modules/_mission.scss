@@ -1,5 +1,5 @@
 .mission-container {
-  grid-column: 2 / 13;
+  grid-column: 2 / 9;
 
   .mission-button {
     display: inline-block;
@@ -15,10 +15,23 @@
   @include mobile {
     grid-column: 1 / 13;
     text-align: center;
+  }
 
+  @media (max-width: 388px) {
     .mission-button{
       margin: 12px auto;
     }
+  }
+}
+
+.mission-svg{
+  grid-column: 9 / 13;
+  width: 140px;
+  height: 160px;
+
+  @include mobile {
+    grid-column: 6 / 13;
+    text-align: center;
   }
 }
 

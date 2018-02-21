@@ -7,9 +7,6 @@ const Header = () => (
     <div className="header">
       <img src={funkyImage} className="header-icon layout-margin-right-16 layout-padding-top-20"
            alt="Funky Icon"/>
-      <h4 className="header-text">
-        Funky Discord
-      </h4>
     </div>
   </div>
 )

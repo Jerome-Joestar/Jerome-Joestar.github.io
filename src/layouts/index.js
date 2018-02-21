@@ -8,7 +8,7 @@ import Header from '../components/header/header';
 const TemplateWrapper = ({ children }) => (
   <div className="content">
     <Helmet
-      title="Funky Discord"
+      title="Marcus Parker Portfolio"
       meta={[
         { name: 'description', content: 'Portfolio site for Marcus Parker' },
         { name: 'author', content: 'Marcus Parker' },
