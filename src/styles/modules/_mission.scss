@@ -26,14 +26,17 @@
   }
 }
 
-.mission-svg{
+.mission-svg-container{
   grid-column: 9 / 13;
-  width: 140px;
-  height: 160px;
-  fill: $blue-2;
+
+  .mission-svg{
+    width: 140px;
+    height: 160px;
+    fill: $blue-2;
+  }
 
   @include mobile {
-    grid-column: 5 / 13;
+    grid-column: 1 / 13;
     text-align: center;
   }
 }
