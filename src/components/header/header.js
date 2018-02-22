@@ -1,5 +1,4 @@
 import React from 'react';
-import Link from 'gatsby-link'
 import funkyImage from '../../styles/images/Funky-512.png';
 
 const Header = () => (

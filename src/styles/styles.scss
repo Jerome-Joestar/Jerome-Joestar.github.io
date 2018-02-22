@@ -1,7 +1,7 @@
 /*Base Styles*/
 @import "base/anchors";
 @import "base/animations";
-@import "modules/card";
+@import "base/buttons";
 @import "base/colors";
 @import "base/inputs";
 @import "base/headers";
@@ -19,7 +19,8 @@
 @import "layouts/slanted_section";
 
 /*Modules Styles*/
-@import "base/buttons";
+@import "modules/about";
+@import "modules/card";
 @import "modules/header";
 @import "modules/hobby";
 @import "modules/icons";
