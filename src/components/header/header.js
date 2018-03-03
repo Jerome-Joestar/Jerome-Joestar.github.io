@@ -6,6 +6,7 @@ const Header = () => (
     <div className="header">
       <img src={funkyImage} className="header-icon layout-margin-right-16 layout-padding-top-20"
            alt="Funky Icon"/>
+      <h3 className="header-text">Marcus Parker</h3>
     </div>
   </div>
 )

@@ -10,6 +10,10 @@
     text-decoration: none;
   }
 
+  .mission-disclaimer{
+    font-style: italic;
+  }
+
   @include desktop{
     padding: 0px 55px;
   }

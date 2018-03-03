@@ -5,14 +5,15 @@ const MissionStatementSection = () => (
     <div className="container body-container">
       <div className="mission-container">
         <h3>
-          Here is the mission statement.
+          Welcome to my portfolio site!
         </h3>
-        <p>
-          Trying to determine a mission statement is super hard when you want it to sound cool and meaningful.
-        </p>
         <p>
           Providing beautiful solutions to technical issues.
         </p>
+        <p className="mission-disclaimer">
+          (Creating a mission statement is tough when you want it to sound cool and meaningful...)
+        </p>
+
         <div>
           <a href="//docs.google.com/document/d/128r7KhH7D0bYKmQNuzY9DFC0KMQfTLhZgJVTplE6jnA/export?format=pdf"
              className="mission-button button button-secondary card-1 card layout-margin-right-12 layout-margin-bottom-12">

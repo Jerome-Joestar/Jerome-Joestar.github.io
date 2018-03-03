@@ -6,11 +6,8 @@ const SocialSection = () => (
         <h1 className="section-title">Social</h1>
         <div className="container body-container social-container">
             <Social social={'github'}/>
+          <Social social={'flickr'}/>
             <Social social={'linkedin'}/>
-            <Social social={'flickr'}/>
-            <Social social={'facebook'}/>
-            <Social social={'instagram'}/>
-            <Social social={'twitter'}/>
         </div>
     </section>
 )

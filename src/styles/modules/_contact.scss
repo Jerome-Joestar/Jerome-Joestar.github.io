@@ -1,0 +1,13 @@
+@import "../mixins/media_queries";
+@import "../base/colors";
+
+.contact-container {
+
+  grid-template-columns: repeat(1, 1fr);
+
+  .contact-content, p, h3 {
+
+    text-align: center;
+  }
+}
+
